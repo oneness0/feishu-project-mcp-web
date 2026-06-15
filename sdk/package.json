@@ -1,0 +1,17 @@
+{
+  "name": "feishu-project-mcp-sdk",
+  "version": "0.1.0",
+  "description": "飞书项目 MCP 前端 SDK：popup 拉起 OAuth 授权并经后端调用 MCP 工具",
+  "type": "module",
+  "main": "./dist/feishu-mcp-sdk.umd.cjs",
+  "module": "./dist/feishu-mcp-sdk.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/feishu-mcp-sdk.mjs",
+      "require": "./dist/feishu-mcp-sdk.umd.cjs"
+    }
+  },
+  "files": ["dist"]
+}

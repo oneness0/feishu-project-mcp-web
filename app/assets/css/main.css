@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --app-bg-green-gray: color-mix(in srgb, var(--ui-color-primary-500) 1.2%, var(--ui-bg-elevated));
+}
+
+.bg-green-gray {
+  background-color: var(--app-bg-green-gray);
+}
+
+/* Tailwind v4 no longer adds cursor:pointer to buttons by default */
+@layer base {
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+}

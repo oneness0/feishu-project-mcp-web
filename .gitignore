@@ -1,0 +1,10 @@
+node_modules
+.nuxt
+.output
+.data
+dist
+sdk/dist
+.env
+*.log
+.DS_Store
+.agents/skills

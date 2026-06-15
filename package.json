@@ -1,0 +1,31 @@
+{
+  "name": "feishu-project-mcp-oauth",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "build:sdk": "vite build --config sdk/vite.config.ts"
+  },
+  "dependencies": {
+    "@guolao/vue-monaco-editor": "^1.6.0",
+    "@nuxt/ui": "^4.8.2",
+    "monaco-editor": "^0.55.1",
+    "monaco-editor-vue3": "^1.0.5",
+    "nuxt": "^4.4.8",
+    "p-limit": "^7.3.0",
+    "tailwindcss": "^4.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.112",
+    "@types/node": "^25.9.2",
+    "sass": "^1.100.0",
+    "typescript": "^5.6.3",
+    "vite-plugin-dts": "^5.0.2"
+  }
+}
